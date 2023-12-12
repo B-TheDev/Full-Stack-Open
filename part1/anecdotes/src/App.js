@@ -24,6 +24,7 @@ function App() {
     const randomIndex = Math.floor(Math.random() * anecdotes.length);
     setSelected(randomIndex);
   };
+  
 
   const handleVote = () => {
     console.log('voting has been handled')
